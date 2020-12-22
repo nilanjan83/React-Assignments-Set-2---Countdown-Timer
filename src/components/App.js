@@ -24,7 +24,7 @@ const App = () => {
       const timer = setInterval(() => {
         const tCount = time - 1;
         setTime(tCount);
-      }, 100);
+      }, 1000);
       return () => {
         clearInterval(timer);
       };
